@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İngilizce-Türkçe Kelime Eşleştirme</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="theme-sidebar" id="themeSidebar" aria-label="Tema seçici">
+      <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Temaları aç/kapat" aria-expanded="false">
+        <span class="sidebar-icon" aria-hidden="true"></span>
+      </button>
+      <div class="sidebar-content">
+        <div class="theme-selector">
+          <span>Temalar</span>
+          <div id="themeButtons" class="theme-buttons"></div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <header>
+        <h1>Kelime Eşleştirme Oyunu</h1>
+        <p>Sol taraftan İngilizce kelimeyi, sağ taraftan Türkçe karşılığını seçerek eşleştirin.</p>
+      </header>
+
+      <section class="theme-info">
+        <h2 id="themeTitle">SCHOOL LIFE</h2>
+        <p id="themeDescription">Okul yaşamı teması için İngilizce ve Türkçe kelime eşleştirmeleri yap.</p>
+      </section>
+
+      <section class="status-row">
+        <div class="status-item">Skor: <span id="score">0</span></div>
+        <div class="status-item">Deneme: <span id="tries">0</span></div>
+        <button id="restartButton">Yeniden Başlat</button>
+      </section>
+
+      <section class="game-board">
+        <div class="column">
+          <h2>İngilizce</h2>
+          <div id="englishList" class="card-grid"></div>
+        </div>
+        <div class="column">
+          <h2>Türkçe</h2>
+          <div id="turkishList" class="card-grid"></div>
+        </div>
+      </section>
+
+      <section class="matched-section">
+        <h2>Doğru Eşleştirmeler</h2>
+        <ul id="matchedList" class="matched-list"></ul>
+      </section>
+
+      <section class="message-box">
+        <p id="message">Hazır mısın? Eşleştirmeye başla!</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
