@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burak Görkem TUNCABAYIN | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="retro-body">
+    <header class="retro-header sticky top-0 z-50">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="retro-title text-sm text-[#ffd166]">Burak Görkem</a>
+        <div id="menu" class="hidden flex-col gap-4 rounded-2xl border border-[#ffd166]/25 bg-[#1f140c]/95 p-4 text-base md:flex md:flex-row md:items-center md:gap-3 md:border-0 md:bg-transparent md:p-0">
+          <a href="index.html" data-nav-link class="top-nav-link" data-i18n="nav.home">Home</a>
+          <a href="gallery.html" data-nav-link class="top-nav-link" data-i18n="nav.videos">Videos</a>
+          <a href="games/index.html" data-nav-link class="top-nav-link" data-i18n="nav.games">Games</a>
+          <a href="downloads.html" data-nav-link class="top-nav-link" data-i18n="nav.documents">Documents</a>
+          <a href="slides.html" data-nav-link class="top-nav-link" data-i18n="nav.slides">Slides</a>
+          <a href="about.html" data-nav-link class="top-nav-link" data-i18n="nav.about">About</a>
+          <a href="contact.html" data-nav-link class="top-nav-link" data-i18n="nav.contact">Contact</a>
+          <button id="lang-toggle" type="button" class="rounded-full border border-[#ffd166]/30 px-3 py-2 text-sm transition hover:text-[#ffd166]">TR</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="dashboard-shell">
+      <div class="dashboard-main">
+        <header class="dashboard-topbar">
+          <div>
+            <p class="retro-kicker" data-i18n="contact.kicker">Contact</p>
+            <h1 class="dashboard-title" data-i18n="contact.title">Let’s connect.</h1>
+          </div>
+          <a href="https://www.youtube.com/@ingilizcederslerim" target="_blank" rel="noreferrer" class="dashboard-pill" data-i18n="contact.topButton">Open YouTube</a>
+        </header>
+
+        <section class="dashboard-grid dashboard-grid-cards">
+          <article class="dashboard-content-card">
+            <div class="retro-card-icon">📞</div>
+            <h3>Telefon</h3>
+            <p>+90 5XX XXX XX XX</p>
+            <div class="dashboard-actions-row">
+              <a href="tel:+905XXXXXXXXX" class="retro-section-link">Ara</a>
+            </div>
+          </article>
+
+          <article class="dashboard-content-card" style="grid-column: span 2;">
+            <div class="retro-card-icon">🗺️</div>
+            <h3>Google Maps</h3>
+            <div class="dashboard-media-wrap" style="margin-top: 0.9rem;">
+              <iframe
+                title="Google Maps"
+                src="https://www.google.com/maps?q=Turkey&output=embed"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+
+          <article class="dashboard-content-card">
+            <div class="retro-card-icon">✉️</div>
+            <h3>E-posta</h3>
+            <p>burakgorkemtuncabayin@gmail.com</p>
+            <div class="dashboard-actions-row">
+              <a href="mailto:burakgorkemtuncabayin@gmail.com" class="retro-section-link">E-posta gönder</a>
+            </div>
+          </article>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="border-t border-[#ffd166]/20 bg-[#130d08]/80">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-base text-[#f0d79c] sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <p>© <span id="year"></span> Burak Görkem TUNCABAYIN. All rights reserved.</p>
+        <a href="about.html" class="transition hover:text-[#ffd166]" data-i18n="nav.about">About me</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

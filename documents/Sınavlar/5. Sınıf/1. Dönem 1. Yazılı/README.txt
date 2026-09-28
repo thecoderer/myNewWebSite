@@ -1,0 +1,1 @@
+<iframe src="https://1drv.ms/w/c/eb4c9558116ec339/IQRnQkPbLRXaT6KAmtkkDX0pAUTE_hjVHKH-s298IVNgmIk?em=2" width="476px" height="288px" frameborder="0" title="PowerPoint Viewer">Bu <a target="_blank" href="https://office.com/webapps">Office</a> tarafından sağlanan eklenmiş bir <a target="_blank" href="https://office.com">Microsoft Office</a> belge belgesidir.</iframe>
